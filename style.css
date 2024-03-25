@@ -1,0 +1,124 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 75px;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+/* 
+.hero-section .hero-img {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+.hero-section .hero-text {
+    padding-top: 200px;
+} */
+.hero-section .overlay {
+  bottom: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.support-items,
+.support-section {
+  z-index: 3;
+}
+
+.hero-section .hero-text .h1 {
+  color: #e8a124;
+  font-size: 70px;
+  line-height: 85px;
+}
+
+.hero-section .hero-text h3 {
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.hero-section .hero-text p {
+  color: #ffffff;
+}
+
+.hero-btn-container .btn {
+  margin-bottom: 5px;
+  margin-right: 12px;
+}
+
+#aboutme .title, #contact .title {
+  text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.aboutme-text .lead {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+#aboutme{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #e3e3e8;
+
+}
+
+/* CIRCLE PULSE EFFECT */
+.pulse-container{
+    position: static;
+}
+.circle {
+  text-align: center;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  color: #000000;
+  padding-top: 25px;
+  border: 1px solid rgba(232, 161, 36, 0.5);
+  box-shadow: 0px 0px 1px 1px #000000;
+  background: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.circle h3 {
+  font-weight: 700;
+}
+.circle p {
+  font-weight: 700;
+}
+.circle-top-right {
+  left: 44%;
+}
+.circle-bottom-right {
+    left: 37%;
+    top: 490px;
+}
+.circle-center-left {
+    left: 8%;
+    top: 340px;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(232, 161, 36, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(232, 161, 36, 0);
+  }
+}

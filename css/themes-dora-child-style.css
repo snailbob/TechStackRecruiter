@@ -1,0 +1,79 @@
+/* ===================================================================================
+
+* Theme Name: Dora Child
+* Theme URI: https://wp.shsarker.xyz/dora/
+* Author: Codeefly
+* Author URI: https://themeforest.net/user/codeefly
+* Description: Dora – Personal Portfolio WordPress Theme
+* Version: 1.0.0
+* Template: Dora
+* License: GNU General Public License version 3.0
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
+* Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options
+
+* We encourage you to create Child theme for any modifications you will want to do.
+
+* Why use Child theme?
+
+* Because of future updates we may provide for this theme that will overwrite your
+* modifications and all your custom work.
+
+* If you are not familiar with Child Themes, you can read about it here:
+* http://codex.wordpress.org/Child_Themes
+
+====================================================================================== */
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.text-center{
+  margin: auto;
+}
+
+.header{
+  background-color: #FDF8F7;
+}
+.header .row > * {
+  width: auto;
+}
+.header .navi ul .nav-item {
+  padding: 15px 20px;
+}
+
+.nav-main > .nav-btn, .nav-main > ul{
+  display: inline-flex !important;
+}
+@media (max-width: 1400px) {
+  .header .navi ul .nav-item {
+    padding: 15px 15px;
+  } 
+}
+@media (min-width: 768px) {
+
+  .text-left-md{
+    text-align: left;
+  }
+  .text-right-md{
+    text-align: right;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.copyright{
+  padding: 60px 0;
+    background-color: #1F1F1E !important;
+}
+
+.copyright p{
+    color: #ffffff;
+}
+.copyright .text-right{
+    text-align: right;
+}
+.header .navi ul .current .nav-link{
+  color: #e8a124;
+}
