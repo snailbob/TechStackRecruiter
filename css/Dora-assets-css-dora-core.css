@@ -31,11 +31,11 @@
 
 -----------------------------------------------------------------------------------*/
 :root {
-  --cf-primary-color: #fd6e0a;
-  --cf-white: #ffffff;
-  --cf-dark: #15295f;
-  --cf-blue: #15295f;
-  --cf-text-gray: #6f6b80;
+  --cf-primary-color: #E8A124;
+  --cf-white: hsl(0, 0%, 100%);
+  --cf-dark: #1F1F1E;
+  --cf-blue: #252843;
+  --cf-text-gray: #72748B;
   --cf-red: #ff4e6e;
   --cf-yellow: #ffaf00;
   --cf-purple: #9c19c9;
@@ -804,7 +804,7 @@ header.active .toggle span:nth-child(3) {
 @media only screen and (max-width: 991.97px) {
   .hero-section .hero-img {
     position: absolute;
-    bottom: -7px;
+    bottom: 0px;
     right: 0;
   }
 }

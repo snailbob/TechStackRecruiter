@@ -30,12 +30,6 @@
   margin: auto;
 }
 
-.header{
-  background-color: #FDF8F7;
-}
-.header .row > * {
-  width: auto;
-}
 .header .navi ul .nav-item {
   padding: 15px 20px;
 }
